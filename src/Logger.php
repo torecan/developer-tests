@@ -10,6 +10,10 @@ class Logger
 {
     private static ?MonologLogger $logger = null;
 
+    /**
+     * get logger
+     * @return MonologLogger
+     */
     public static function getLogger(): MonologLogger
     {
         if (self::$logger === null) {
@@ -22,6 +26,10 @@ class Logger
         return self::$logger;
     }
 
+    /**
+     * get log file path
+     * @return string
+     */
     public static function getLogFilePath() : string
     {
         return __DIR__ . '/../logs/' . date('d.m.Y') . '_logs.log';

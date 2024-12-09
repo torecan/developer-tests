@@ -10,6 +10,12 @@ use App\Modules\DivisionAction;
 
 class ActionFactory
 {
+    /**
+     * create action
+     * @param string $action
+     * @param string $file
+     * @return AbstractBaseAction
+     */
     public static function create(string $action, string $file): AbstractBaseAction
     {
         switch ($action) {

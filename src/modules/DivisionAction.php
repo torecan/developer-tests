@@ -10,6 +10,9 @@ use App\AbstractBaseAction;
 
 class DivisionAction extends AbstractBaseAction {
 
+    /**
+     * execute action
+     */
     public function execute(): void {
                 
         $this->logger->info("Started division operation \r\n");

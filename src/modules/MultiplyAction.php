@@ -10,6 +10,9 @@ use App\AbstractBaseAction;
 
 class MultiplyAction extends AbstractBaseAction {
 
+    /**
+     * execute action
+     */
     public function execute(): void {
                 
         $this->logger->info("Started multiply operation \r\n");
