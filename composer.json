@@ -11,5 +11,7 @@
             "email": "torecancelik@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "monolog/monolog": "^3.8"
+    }
 }

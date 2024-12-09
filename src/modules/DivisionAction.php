@@ -34,7 +34,7 @@ class DivisionAction extends AbstractBaseAction {
     }
 
 
-        /**
+    /**
      * write in logs if numbers give wrong result
      * @param int $value1
      * @param int $value2
